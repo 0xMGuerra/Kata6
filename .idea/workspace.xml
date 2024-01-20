@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9073509d-2b28-4760-b326-ad180b7de7b1" name="Changes" comment="Created first version of swapFirstAndLastChar method.">
+    <list default="true" id="9073509d-2b28-4760-b326-ad180b7de7b1" name="Changes" comment="Added null check in swapFirstAndLastChar class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/software/ulpgc/StringSwapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/software/ulpgc/StringSwapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StringSwapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringSwapperTest.java" afterDir="false" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705768350146</updated>
-      <workItem from="1705768351148" duration="494000" />
+      <workItem from="1705768351148" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="Created first version of swapFirstAndLastChar method.">
       <option name="closed" value="true" />
@@ -73,7 +73,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705768562093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modified swapFirstAndLastChar to accept empty strings or one char string and multiple lenghts.">
+      <option name="closed" value="true" />
+      <created>1705768896450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705768896450</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added null check in swapFirstAndLastChar class.">
+      <option name="closed" value="true" />
+      <created>1705769158593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705769158593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +97,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created first version of swapFirstAndLastChar method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created first version of swapFirstAndLastChar method." />
+    <MESSAGE value="Modified swapFirstAndLastChar to accept empty strings or one char string and multiple lenghts." />
+    <MESSAGE value="Added null check in swapFirstAndLastChar class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added null check in swapFirstAndLastChar class." />
   </component>
 </project>

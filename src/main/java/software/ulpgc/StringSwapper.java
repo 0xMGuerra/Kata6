@@ -22,4 +22,21 @@ public class StringSwapper {
     public int size(String s) {
         return s.length();
     }
+
+    public String swapWholeString(String s) {
+
+        if(s == null) {
+            throw new IllegalArgumentException("String cannot be null.");
+        }
+        char[] charArray = s.toCharArray();
+        int size = size(s);
+
+        for (int i = 0; i < size / 2; i++) {
+            char temp = charArray[i];
+            charArray[i] = charArray[size - 1 -i];
+            charArray[size - 1 -i] = temp;
+        }
+
+        return new String(charArray);
+    }
 }

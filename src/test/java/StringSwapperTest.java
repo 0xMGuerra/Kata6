@@ -54,4 +54,17 @@ public class StringSwapperTest {
         StringSwapper stringSwapper = new StringSwapper();
         assertThrows(IllegalArgumentException.class, () -> stringSwapper.swapFirstAndLastChar(null));
     }
+
+    @Test
+    public void check_swap_whole_string() {
+        StringSwapper stringSwapper = new StringSwapper();
+        String test = "abcd";
+        assertEquals("dcba", stringSwapper.swapWholeString(test));
+    }
+
+    @Test
+    public void check_swap_whole_string_given_null_argumen() {
+        StringSwapper stringSwapper = new StringSwapper();
+        assertThrows(IllegalArgumentException.class, () -> stringSwapper.swapWholeString(null));
+    }
 }
