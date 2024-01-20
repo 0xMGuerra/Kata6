@@ -4,6 +4,10 @@ public class StringSwapper {
 
     public String swapFirstAndLastChar(String s) {
 
+        if(s == null) {
+            throw new IllegalArgumentException("String cannot be null");
+        }
+
         int size = size(s);
 
         if(size <= 1) return s;
