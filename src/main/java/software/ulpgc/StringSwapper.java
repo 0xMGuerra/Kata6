@@ -16,7 +16,10 @@ public class StringSwapper {
         char lastChar = s.charAt(size - 1);
         String middleChars = s.substring(1, size - 1);
 
-        return lastChar + middleChars + firstChar;
+        StringBuilder result = new StringBuilder(size);
+        result.append(lastChar).append(middleChars).append(firstChar);
+
+        return result.toString();
     }
 
     public int size(String s) {
