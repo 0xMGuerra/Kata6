@@ -31,15 +31,14 @@ public class StringSwapper {
         if(s == null) {
             throw new IllegalArgumentException("String cannot be null.");
         }
-        char[] charArray = s.toCharArray();
         int size = size(s);
 
-        for (int i = 0; i < size / 2; i++) {
-            char temp = charArray[i];
-            charArray[i] = charArray[size - 1 -i];
-            charArray[size - 1 -i] = temp;
+        StringBuilder reversed = new StringBuilder(size);
+
+        for (int i = size - 1; i >= 0; i--) {
+            reversed.append(s.charAt(i));
         }
 
-        return new String(charArray);
+        return reversed.toString();
     }
 }
